@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parameterization Test Suite">
+	<test name="Testing Parameterization">
+	
+	<parameter name="password" value="Test@123"/>
+	<parameter name="browser" value="chrome"/>
+	<parameter name="username" value="admin"/>
+		<classes>
+			<class name="advancetestng.Parameterization" />
+		</classes>
+	</test>
+</suite>

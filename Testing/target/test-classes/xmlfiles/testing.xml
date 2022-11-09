@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="datadriventesting.ExcelReading"/>
+      <class name="advancetestng.TestParallelExecution"/>
+      <class name="basictestng.FirstTestNgWebScript"/>
+      <class name="basictestng.TestCaseDependency"/>
+      <class name="basictestng.MultipleTestMethodInClass"/>
+      <class name="advancetestng.DataProviderExample"/>
+      <class name="basictestng.GoogleApplicationWithBeforeAfterMethod"/>
+      <class name="basictestng.Annotations2"/>
+      <class name="basictestng.Annotations3"/>
+      <class name="basictestng.Annotations"/>
+      <class name="retryfailedTc.Test001"/>
+      <class name="assingment.Excel2"/>
+      <class name="advancetestng.GroupExamples"/>
+      <class name="advanceTestNgPractice.Group"/>
+      <class name="basictestng.Actitime"/>
+      <class name="basictestng.GoogleApplicationWithBeforeAfter"/>
+      <class name="basictestng.Actitime_InvocationCount"/>
+      <class name="basictestng.Actitime_Timeout"/>
+      <class name="advanceTestNgPractice.RetryTc"/>
+      <class name="scripts.OrangeHrm"/>
+      <class name="runTimeRetryfailedTc.Test001"/>
+      <class name="extent.Extent2"/>
+      <class name="extent.Extent1"/>
+      <class name="javascriptexecutor.Example1"/>
+      <class name="webscripts.TestLeadsPage"/>
+      <class name="javascriptexecutor.Example3"/>
+      <class name="javascriptexecutor.Example2"/>
+      <class name="basictestng.Actitime_ExceptionAndTimeout"/>
+      <class name="basictestng.ClassLabelAnnotations"/>
+      <class name="advanceTestNgPractice.IncludeandExclude"/>
+      <class name="scripts.Vtiger"/>
+      <class name="scripts.Actitime"/>
+      <class name="basictestng.TestCaseExecutionControl"/>
+      <class name="advancetestng.IncludeAndExcludeTestMethods"/>
+      <class name="assingment.Excelassingment"/>
+      <class name="advanceTestNgPractice.Test002"/>
+      <class name="assingment.UpdateExcel"/>
+      <class name="basictestng.Sample4"/>
+      <class name="datadriventesting.ExcelUpdate"/>
+      <class name="basictestng.Sample3"/>
+      <class name="basictestng.Sample2"/>
+      <class name="basictestng.Sample1"/>
+      <class name="advanceTestNgPractice.Fire"/>
+      <class name="datadriventesting.ActitimeLogin"/>
+      <class name="googleScripts.TestgoogleSearch"/>
+      <class name="advancetestng.VtigerLogin"/>
+      <class name="basictestng.Actitime_Enabled"/>
+      <class name="webscripts.TestOrganization"/>
+      <class name="basictestng.Actitime_DependsOn"/>
+      <class name="basictestng.SetTestCaseOrder_Priority"/>
+      <class name="basictestng.GoogleApplicationWithBeforeAfterTest"/>
+      <class name="webscripts.TestCampaignPage"/>
+      <class name="basictestng.Actitime_Priority"/>
+      <class name="datadriventesting.ExcelOperations"/>
+      <class name="basictestng.AnnotationList"/>
+      <class name="advanceTestNgPractice.DataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

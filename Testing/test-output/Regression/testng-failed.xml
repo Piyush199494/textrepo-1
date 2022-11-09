@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="basictestng.GoogleApplicationWithBeforeAfterMethod">
+        <methods>
+          <include name="testSearch"/>
+          <include name="startUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- basictestng.GoogleApplicationWithBeforeAfterMethod -->
+      <class name="basictestng.GoogleApplicationWithBeforeAfter">
+        <methods>
+          <include name="testReportsPage"/>
+          <include name="testVtigerHomePage"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="cleanUp"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- basictestng.GoogleApplicationWithBeforeAfter -->
+      <class name="basictestng.Actitime_DependsOn">
+        <methods>
+          <include name="login"/>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- basictestng.Actitime_DependsOn -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Regression] -->

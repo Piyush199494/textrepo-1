@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="param-val-not-found"/>
+  <parameter name="browser" value="param-val-not-found"/>
+  <parameter name="username" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="extent.Extent1">
+        <methods>
+          <include name="TestCase2"/>
+          <include name="Testcase1"/>
+          <include name="endTest"/>
+          <include name="starttest"/>
+        </methods>
+      </class> <!-- extent.Extent1 -->
+      <class name="advancetestng.TestParallelExecution">
+        <methods>
+          <include name="testLoginOfVtiger"/>
+          <include name="testLoginOfActitime"/>
+        </methods>
+      </class> <!-- advancetestng.TestParallelExecution -->
+      <class name="javascriptexecutor.Example1">
+        <methods>
+          <include name="TestCase2"/>
+          <include name="TestCase1"/>
+        </methods>
+      </class> <!-- javascriptexecutor.Example1 -->
+      <class name="datadriventesting.ExcelOperations">
+        <methods>
+          <include name="getCellValueFromParticularRow"/>
+          <include name="getRowsCountFromSheet"/>
+          <include name="getCompleteDataFromScepecificSheet"/>
+          <include name="updateCellValue"/>
+          <include name="getSheetName"/>
+          <include name="createAndInsertValueInCell"/>
+          <include name="getFirstCellValueFromEachRow"/>
+        </methods>
+      </class> <!-- datadriventesting.ExcelOperations -->
+      <class name="basictestng.FirstTestNgWebScript">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- basictestng.FirstTestNgWebScript -->
+      <class name="advancetestng.GroupExamples">
+        <methods>
+          <include name="testCaseOne"/>
+          <include name="testCaseFour"/>
+          <include name="testCaseTwo"/>
+          <include name="testCaseFive"/>
+          <include name="testCaseThree"/>
+        </methods>
+      </class> <!-- advancetestng.GroupExamples -->
+      <class name="advanceTestNgPractice.Test002">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.Test002 -->
+      <class name="retryfailedTc.Test001">
+        <methods>
+          <include name="Test2"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- retryfailedTc.Test001 -->
+      <class name="advanceTestNgPractice.Parallel">
+        <methods>
+          <include name="testloginofvtiger"/>
+          <include name="Actitime"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.Parallel -->
+      <class name="basictestng.Actitime">
+        <methods>
+          <include name="c_createTask"/>
+          <include name="d_logoutClose"/>
+          <include name="b_login"/>
+          <include name="a_openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- basictestng.Actitime -->
+      <class name="basictestng.TestCaseExecutionControl">
+        <methods>
+          <include name="testCaseSignup"/>
+        </methods>
+      </class> <!-- basictestng.TestCaseExecutionControl -->
+      <class name="basictestng.ClassLabelAnnotations">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase4"/>
+          <include name="testCase3"/>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- basictestng.ClassLabelAnnotations -->
+      <class name="basictestng.TestCaseDependency">
+        <methods>
+          <include name="testGoogleLandingPage"/>
+          <include name="cleanUp"/>
+          <include name="testSearch"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- basictestng.TestCaseDependency -->
+      <class name="advanceTestNgPractice.DataProvider">
+        <methods>
+          <include name="setdata"/>
+          <include name="Testlogin"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.DataProvider -->
+      <class name="datadriventesting.ActitimeLogin">
+        <methods>
+          <include name="getData"/>
+          <include name="actitimeLogin"/>
+          <include name="cleanUp1"/>
+        </methods>
+      </class> <!-- datadriventesting.ActitimeLogin -->
+      <class name="advanceTestNgPractice.ParallelTest">
+        <methods>
+          <include name="TestloginofVtiger"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.ParallelTest -->
+      <class name="basictestng.GoogleApplicationWithBeforeAfter">
+        <methods>
+          <include name="testReportsPage"/>
+          <include name="testVtigerHomePage"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="cleanUp"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- basictestng.GoogleApplicationWithBeforeAfter -->
+      <class name="advancetestng.DataProviderExample">
+        <methods>
+          <include name="setData"/>
+          <include name="testLoginOfVtiger"/>
+        </methods>
+      </class> <!-- advancetestng.DataProviderExample -->
+      <class name="assingment.UpdateExcel">
+        <methods>
+          <include name="Update"/>
+        </methods>
+      </class> <!-- assingment.UpdateExcel -->
+      <class name="advancetestng.IncludeAndExcludeTestMethods">
+        <methods>
+          <include name="addDepartmentTestCase"/>
+          <include name="addEmployeeTestCase"/>
+          <include name="addLocationTestCase"/>
+        </methods>
+      </class> <!-- advancetestng.IncludeAndExcludeTestMethods -->
+      <class name="webscripts.TestCampaignPage">
+        <methods>
+          <include name="CampaignMod"/>
+          <include name="Prerequisite"/>
+          <include name="TestcreateCampaign"/>
+          <include name="Delete"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- webscripts.TestCampaignPage -->
+      <class name="advancetestng.ParallelExecutionTest">
+        <methods>
+          <include name="testLoginOfVtiger"/>
+        </methods>
+      </class> <!-- advancetestng.ParallelExecutionTest -->
+      <class name="basictestng.Annotations">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="taskCreation"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- basictestng.Annotations -->
+      <class name="scripts.Actitime">
+        <methods>
+          <include name="Testcase1"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- scripts.Actitime -->
+      <class name="basictestng.GoogleApplicationWithBeforeAfterTest">
+        <methods>
+          <include name="testSearch"/>
+          <include name="cleanUp"/>
+          <include name="testGoogleLandingPage"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- basictestng.GoogleApplicationWithBeforeAfterTest -->
+      <class name="advanceTestNgPractice.Group">
+        <methods>
+          <include name="testCaseTwo"/>
+          <include name="testCaseFive"/>
+          <include name="testCaseThree"/>
+          <include name="testCasefour"/>
+          <include name="testCaseOne"/>
+          <include name="testCaseSix"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.Group -->
+      <class name="basictestng.GoogleApplicationWithBeforeAfterMethod">
+        <methods>
+          <include name="testSearch"/>
+          <include name="startUp"/>
+          <include name="cleanUp"/>
+          <include name="testGoogleLandingPage"/>
+        </methods>
+      </class> <!-- basictestng.GoogleApplicationWithBeforeAfterMethod -->
+      <class name="basictestng.Sample2">
+        <methods>
+          <include name="testCase1"/>
+          <include name="testCase2"/>
+          <include name="testCase3"/>
+        </methods>
+      </class> <!-- basictestng.Sample2 -->
+      <class name="basictestng.Actitime_InvocationCount">
+        <methods>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- basictestng.Actitime_InvocationCount -->
+      <class name="assingment.Excelassingment">
+        <methods>
+          <include name="getData"/>
+          <include name="cleanUp1"/>
+          <include name="Vtiger"/>
+        </methods>
+      </class> <!-- assingment.Excelassingment -->
+      <class name="advanceTestNgPractice.RetryTc">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.RetryTc -->
+      <class name="extent.Extent2">
+        <methods>
+          <include name="testCase2"/>
+          <include name="skipTest"/>
+          <include name="testCase1"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- extent.Extent2 -->
+      <class name="datadriventesting.ExcelUpdate">
+        <methods>
+          <include name="updateCellDetails"/>
+        </methods>
+      </class> <!-- datadriventesting.ExcelUpdate -->
+      <class name="basictestng.MultipleTestMethodInClass">
+        <methods>
+          <include name="testCaseCreation"/>
+          <include name="testCaseLogin"/>
+          <include name="testCaseDeletion"/>
+          <include name="testCaseSignup"/>
+        </methods>
+      </class> <!-- basictestng.MultipleTestMethodInClass -->
+      <class name="webscripts.TestOrganization">
+        <methods>
+          <include name="Prerequisite"/>
+          <include name="cleanUp"/>
+          <include name="testOrganizationCreation"/>
+        </methods>
+      </class> <!-- webscripts.TestOrganization -->
+      <class name="basictestng.Actitime_ExceptionAndTimeout">
+        <methods>
+          <include name="executetimeOut"/>
+          <include name="dividedByZeroExample1"/>
+        </methods>
+      </class> <!-- basictestng.Actitime_ExceptionAndTimeout -->
+      <class name="webscripts.TestLeadsPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLeadCreation"/>
+          <include name="testLeadDeletion"/>
+          <include name="testLeadModification"/>
+          <include name="prerequisite"/>
+        </methods>
+      </class> <!-- webscripts.TestLeadsPage -->
+      <class name="basictestng.Sample4">
+        <methods>
+          <include name="c_compose"/>
+          <include name="b_login"/>
+          <include name="a_signUp"/>
+        </methods>
+      </class> <!-- basictestng.Sample4 -->
+      <class name="basictestng.Actitime_Timeout">
+        <methods>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- basictestng.Actitime_Timeout -->
+      <class name="basictestng.Actitime_DependsOn">
+        <methods>
+          <include name="createTask"/>
+          <include name="login"/>
+          <include name="logoutClose"/>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- basictestng.Actitime_DependsOn -->
+      <class name="advancetestng.VtigerLogin">
+        <methods>
+          <include name="loginInVtiger"/>
+        </methods>
+      </class> <!-- advancetestng.VtigerLogin -->
+      <class name="basictestng.AnnotationList">
+        <methods>
+          <include name="f4"/>
+          <include name="f5"/>
+          <include name="f2"/>
+          <include name="f1"/>
+          <include name="f7"/>
+          <include name="f3"/>
+          <include name="f8"/>
+          <include name="f9"/>
+          <include name="f6"/>
+        </methods>
+      </class> <!-- basictestng.AnnotationList -->
+      <class name="datadriventesting.ExcelReading">
+        <methods>
+          <include name="getCellDetails"/>
+          <include name="getDiffTypeOfCellData"/>
+          <include name="getRowDetails"/>
+          <include name="readSheetDetails"/>
+        </methods>
+      </class> <!-- datadriventesting.ExcelReading -->
+      <class name="advanceTestNgPractice.Fire">
+        <methods>
+          <include name="Firefox"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.Fire -->
+      <class name="basictestng.Sample1">
+        <methods>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- basictestng.Sample1 -->
+      <class name="basictestng.Actitime_Enabled">
+        <methods>
+          <include name="createTask"/>
+          <include name="openBrowserAndAppURL"/>
+        </methods>
+      </class> <!-- basictestng.Actitime_Enabled -->
+      <class name="advancetestng.Parameterization">
+        <methods>
+          <include name="testCaseThree"/>
+          <include name="testCaseTwo"/>
+          <include name="testCaseOne"/>
+          <include name="testLoginOfVtiger"/>
+        </methods>
+      </class> <!-- advancetestng.Parameterization -->
+      <class name="runTimeRetryfailedTc.Test001">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- runTimeRetryfailedTc.Test001 -->
+      <class name="javascriptexecutor.Example3">
+        <methods>
+          <include name="TestCase1"/>
+        </methods>
+      </class> <!-- javascriptexecutor.Example3 -->
+      <class name="assingment.Excel2">
+        <methods>
+          <include name="GetCellDetails"/>
+          <include name="GetDiffTypeOfCellData"/>
+          <include name="readsheetdata"/>
+          <include name="getrowDetails"/>
+        </methods>
+      </class> <!-- assingment.Excel2 -->
+      <class name="javascriptexecutor.Example2">
+        <methods>
+          <include name="TestCase1"/>
+        </methods>
+      </class> <!-- javascriptexecutor.Example2 -->
+      <class name="basictestng.Sample3">
+        <methods>
+          <include name="signUp"/>
+          <include name="login"/>
+          <include name="compose"/>
+        </methods>
+      </class> <!-- basictestng.Sample3 -->
+      <class name="advanceTestNgPractice.IncludeandExclude">
+        <methods>
+          <include name="addDepartmentTestcase"/>
+          <include name="addEmployeeTestcase"/>
+          <include name="addLocationtestCase"/>
+        </methods>
+      </class> <!-- advanceTestNgPractice.IncludeandExclude -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

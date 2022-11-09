@@ -1,0 +1,316 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-09T05:36:54.835Z",
+        "line": 12,
+        "name": "Check the user login with Valid user",
+        "description": "",
+        "id": "to-verify-the-login-functionality-of-application;check-the-user-login-with-\u003cflow\u003e-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18046032200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on actitime login page",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.user_is_on_actitime_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 298017000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters username as admin in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_enters_username_as_in_the_username_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267015300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password as manaager in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manaager",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_enters_password_as_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 207011800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21001200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get page title as actiTime - Enter Time-Track",
+            "match": {
+              "arguments": [
+                {
+                  "val": "actiTime - Enter Time-Track",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_should_get_page_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 112006500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the actiTime browser",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.close_the_actitime_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T05:37:13.913Z",
+        "line": 13,
+        "name": "Check the user login with invalid user",
+        "description": "",
+        "id": "to-verify-the-login-functionality-of-application;check-the-user-login-with-\u003cflow\u003e-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15513887300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on actitime login page",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.user_is_on_actitime_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286016300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters username as admin in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_enters_username_as_in_the_username_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 306017500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password as \"\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_enters_password_as_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233013300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32001800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get page title as actiTime - Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "actiTime - Login",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_should_get_page_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 157009000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the actiTime browser",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.close_the_actitime_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-09T05:37:30.485Z",
+        "line": 14,
+        "name": "Check the user login with invalid user",
+        "description": "",
+        "id": "to-verify-the-login-functionality-of-application;check-the-user-login-with-\u003cflow\u003e-user;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16098920800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on actitime login page",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.user_is_on_actitime_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246014100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters username as \"\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_enters_username_as_in_the_username_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 261014900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password as manager in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "manager",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_enters_password_as_in_the_password_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182010400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23001300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should get page title as actiTime - Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "actiTime - Login",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.ActiTimelogin.user_should_get_page_title_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4149237300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the actiTime browser",
+            "match": {
+              "location": "stepdefinitions.ActiTimelogin.close_the_actitime_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login functionality of application",
+    "description": "",
+    "id": "to-verify-the-login-functionality-of-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/ActiTimelogin.feature",
+    "tags": []
+  }
+]

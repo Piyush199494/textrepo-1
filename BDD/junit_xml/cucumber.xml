@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="57.311">
+    <testcase classname="To verify the login functionality of application" name="Check the user login with Valid user" time="19.003">
+        <system-out><![CDATA[Given User is on actitime login page........................................passed
+When User Enters username as admin in the username field....................passed
+And user enters password as manaager in the password field..................passed
+And user clicks on login button.............................................passed
+Then User should get page title as actiTime - Enter Time-Track..............passed
+And close the actiTime browser..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verify the login functionality of application" name="Check the user login with invalid user" time="16.539">
+        <system-out><![CDATA[Given User is on actitime login page........................................passed
+When User Enters username as admin in the username field....................passed
+And user enters password as "" in the password field........................passed
+And user clicks on login button.............................................passed
+Then User should get page title as actiTime - Login.........................passed
+And close the actiTime browser..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To verify the login functionality of application" name="Check the user login with invalid user 2" time="20.969">
+        <system-out><![CDATA[Given User is on actitime login page........................................passed
+When User Enters username as "" in the username field.......................passed
+And user enters password as manager in the password field...................passed
+And user clicks on login button.............................................passed
+Then User should get page title as actiTime - Login.........................passed
+And close the actiTime browser..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

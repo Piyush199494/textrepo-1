@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Suite   name="Suite">
+    <Test  name="testing">
+    <groups>
+        <run>
+          <exclude name="Smoke"/>
+          <include name="Regression"/>
+       </run>    
+    </groups>
+        <Classes>
+         <Class name="advanceTestNgPractice.Group">
+         </Class>
+       </Classes>
+   </Test>
+</Suite>
